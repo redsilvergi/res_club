@@ -123,3 +123,40 @@ nav li {
     color: #ffa07a;
     display: inline-block;
 }
+
+@media only screen and (max-width: 1048px) {
+    .event-images img,
+    .result-images img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 222px) and (max-width: 640px) {
+    nav li,
+    .end-nav li {
+        display: block;
+        text-align: center;
+    }
+
+    .frontword h1{
+        margin-top: 2rem;
+    }
+
+    .frontword {
+        max-height: 230px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .result-word h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .result-word h1 {
+        font-size: 1rem;
+    }
+}
